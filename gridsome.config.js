@@ -21,6 +21,6 @@ module.exports = {
     },
   },
   templates: {
-    ArticlePost: "/article/:title",
+    ArticlePost: "/articles/:title",
   },
 }
