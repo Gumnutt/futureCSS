@@ -4,6 +4,7 @@
 import "prismjs/themes/prism.css"
 import "~/css/reset.css"
 import "~/css/variables.css"
+import "~/css/typography.css"
 import "~/css/utility.css"
 import "~/css/main.css"
 import "~/css/accent-color.css"

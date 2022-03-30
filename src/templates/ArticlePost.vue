@@ -10,8 +10,6 @@
         </p>
       </header>
 
-      <pre>{{ $page.post }}</pre>
-
       <main class="wrapper content" v-html="$page.post.content"></main>
     </article>
   </Layout>
@@ -30,8 +28,9 @@ article > header {
   grid-template-columns: minmax(0, 1fr) minmax(0, calc(var(--rhythm) * 1)) minmax(0, 54ch) minmax(0, calc(var(--rhythm) * 1)) minmax(0, 1fr);
   font-size: var(--font-size);
   line-height: var(--line-height);
+  padding-bottom: var(--spacing-40);
 }
-.content > * {
+.content > *:not(hr) {
   grid-column: 3;
 }
 .content > * + * {
@@ -39,6 +38,9 @@ article > header {
 }
 .content p {
   color: var(--gray-700);
+}
+hr {
+  grid-column: 2/5;
 }
 </style>
 

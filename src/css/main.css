@@ -11,6 +11,12 @@ body {
   overflow-x: hidden;
   background: #f9f9fc;
 }
+
+code[class*="language-"],
+pre[class*="language-"] {
+  font-size: 1rem;
+}
+
 .header--title {
   font-size: var(--text-4xl);
   font-weight: var(--font-extrabold);
