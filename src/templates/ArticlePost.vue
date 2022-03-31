@@ -30,7 +30,7 @@ article > header {
   line-height: var(--line-height);
   padding-bottom: var(--spacing-40);
 }
-.content > *:not(hr) {
+.content > *:not(hr, iframe) {
   grid-column: 3;
 }
 .content > * + * {
@@ -41,6 +41,9 @@ article > header {
 }
 hr {
   grid-column: 2/5;
+}
+iframe {
+  grid-column: 1/6;
 }
 </style>
 
