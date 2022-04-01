@@ -4,3 +4,23 @@ h2 {
   letter-spacing: var(--tracking-tight);
   margin-top: calc(var(--rhythm) * 2.5);
 }
+
+:not(pre) > code {
+  background-color: var(--gray-100);
+  border: 1px solid var(--gray-300);
+  padding: 0.125em 0.25em;
+  font-size: 0.9em;
+  hyphens: none;
+  tab-size: 2;
+  text-align: left;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  box-decoration-break: clone;
+}
+
+pre[class*="language-"] {
+  background-color: var(--gray-100);
+  border: 1px dashed var(--gray-300);
+  border-radius: 4px;
+}

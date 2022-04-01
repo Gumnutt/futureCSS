@@ -39,5 +39,13 @@ query {
 }
 .nav__link {
   margin-left: 20px;
+  color: black;
+  text-decoration: none;
+}
+.nav__link.active {
+  background-color: var(--yellow);
+  border-radius: 9999px;
+  padding: 0.3rem 0.7rem;
+  font-weight: bold;
 }
 </style>

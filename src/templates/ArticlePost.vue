@@ -30,7 +30,7 @@ article > header {
   line-height: var(--line-height);
   padding-bottom: var(--spacing-40);
 }
-.content > *:not(hr, iframe) {
+.content > *:not(hr, iframe, pre) {
   grid-column: 3;
 }
 .content > * + * {
@@ -39,7 +39,14 @@ article > header {
 .content p {
   color: var(--gray-700);
 }
-hr {
+.content ul {
+  list-style: disc;
+}
+.content ol {
+  list-style: decimal;
+}
+hr,
+pre {
   grid-column: 2/5;
 }
 iframe {

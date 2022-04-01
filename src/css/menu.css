@@ -1,0 +1,7 @@
+.nav__link {
+}
+.nav__link .active {
+  background-color: var(--yellow);
+  border-radius: 9999px;
+  display: block;
+}

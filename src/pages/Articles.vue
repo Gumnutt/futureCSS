@@ -1,8 +1,5 @@
 <template>
   <Layout>
-    <h1>Articles</h1>
-    <p>This is the blog page.</p>
-
     <ItemList :posts="$page.posts.edges" />
   </Layout>
 </template>
